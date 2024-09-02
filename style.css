@@ -160,5 +160,44 @@ ul{
     background-color: #E5E7EB;
 }
 
+.section-4{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    padding: 48px;
+}
+
+.call-to-action{
+    display: flex;
+    gap: 24px;
+    width: 750px;
+    justify-content: space-around;
+    color: white;
+    background-color:#3882F6;
+    padding: 36px;
+    border-radius: 8px;
+}
+
+.action-content{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.call-to-action .signup{
+    border: 2px solid white;
+}
+
+.action-heading{
+    font-weight: 900;
+    font-size: 24px;
+}
+
+
+
+
+
+
 
 
