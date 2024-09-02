@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
 body{
     display: flex;
     flex-direction: column;
     min-height:100vh;
     margin: 0px;
-    font-family: 'Roboto', 'serif';
+    font-family: Roboto, sans-serif;
 }
 
 .section-1{
@@ -125,5 +127,38 @@ ul{
 .text{
     text-align: center;
 }
+
+.section-3{
+    padding: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-container{
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote{
+   font-size: 36px;
+   font-weight: 100;
+   font-style: italic;
+   text-align: justify;
+}
+
+.quote-attribution{
+    display: flex;
+    justify-content: right;
+    font-size: 36px;
+
+}
+
+.section-3,
+.quote-container{
+    background-color: #E5E7EB;
+}
+
 
 
